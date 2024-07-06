@@ -1,5 +1,3 @@
-import { startGameHandler } from './game'
-
 export const themeToggleHandler = () => {
 	const html = document.documentElement
 	const themeToggle = document.getElementById('themeToggle')

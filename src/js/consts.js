@@ -1,3 +1,8 @@
+export const START_GAME = {
+	EN: 'Start game',
+	RU: 'Начать игру',
+}
+
 export const WORDS = {
 	EN: [
 		'apple',
