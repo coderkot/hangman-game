@@ -1,6 +1,30 @@
 export const WORDS = {
-	EN: ['code', 'frontend', 'programming'],
-	RU: ['код', 'пельмень', 'жопа'],
+	EN: [
+		'apple',
+		'orange',
+		'sun',
+		'car',
+		'friend',
+		'summer',
+		'winter',
+		'school',
+		'phone',
+		'computer',
+	],
+	RU: [
+		'яблоко',
+		'апельсин',
+		'пингвин',
+		'солнце',
+		'ракета',
+		'аквапарк',
+		'радуга',
+		'часы',
+		'книга',
+		'дружба',
+		'трактор',
+		'лето',
+	],
 }
 
 const EN_KEYBOARD = Array.from('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
@@ -40,7 +64,7 @@ export const QUIT = {
 
 export const CONFIRM_MESSAGE = {
 	EN: 'Are you sure you want to quit and lose progress?',
-	RU: 'Вы уверены, что хотите выйти и потерять прогресс?'
+	RU: 'Вы уверены, что хотите выйти и потерять прогресс?',
 }
 
 export const TRIES = 10
